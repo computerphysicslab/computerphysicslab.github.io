@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>computerphysicslab — projects</title>
+<meta name="description" content="Public projects and live demos by computerphysicslab.">
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #0d1117; --panel: #161b22; --line: #30363d;
+    --ink: #e6edf3; --muted: #9da7b3; --accent: #58d5e0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main { max-width: 780px; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+  h1 { font-size: 2rem; margin: 0 0 .3rem; letter-spacing: .02em; }
+  .lead { color: var(--muted); margin: 0 0 2rem; }
+  h2 {
+    font-size: .95rem; text-transform: uppercase; letter-spacing: .14em;
+    color: var(--accent); margin: 2.5rem 0 1rem;
+  }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .75rem; }
+  li { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: .85rem 1rem; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover, a:focus-visible { text-decoration: underline; }
+  .name { font-weight: 650; font-size: 1.05rem; }
+  .tag {
+    display: inline-block; margin-left: .45rem; padding: .05rem .4rem;
+    border: 1px solid var(--accent); border-radius: 4px;
+    font-size: .62rem; letter-spacing: .1em; vertical-align: .15em;
+  }
+  .desc { display: block; color: var(--muted); font-size: .9rem; margin-top: .15rem; }
+  footer { margin-top: 3rem; border-top: 1px solid var(--line); padding-top: 1rem; color: var(--muted); font-size: .85rem; }
+  @media (max-width: 480px) { main { padding-top: 2rem; } h1 { font-size: 1.7rem; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>computerphysicslab</h1>
+  <p class="lead">Theoretical physicist, science communicator, teacher and open-source developer.
+    Live demos and public code.</p>
+
+  <h2>Play and explore</h2>
+  <ul>
+    <li>
+      <a class="name" href="https://computerphysicslab.github.io/harrier-patrol/">Harrier Patrol<span class="tag">PLAY</span></a>
+      <span class="desc">A self-contained VTOL arcade game: one HTML file, no install, works offline.</span>
+    </li>
+    <li>
+      <a class="name" href="https://computerphysicslab.github.io/master-profesorado-matematicas/">Mathematics teaching notes</a>
+      <span class="desc">Secondary-school Mathematics materials, activities and PBL resources (in Spanish).</span>
+    </li>
+    <li>
+      <a class="name" href="https://computerphysicslab.github.io/webcharts/">Crypto Charts</a>
+      <span class="desc">Multi-provider chart viewer with cached windows, RSI and two-asset comparison.</span>
+    </li>
+    <li>
+      <a class="name" href="https://computerphysicslab.github.io/English-vocabulary-flashcards/">English vocabulary flashcards</a>
+      <span class="desc">Image-based word quiz with a CEFR level estimate from A1 to C2.</span>
+    </li>
+  </ul>
+
+  <h2>Code on GitHub</h2>
+  <ul>
+    <li>
+      <a class="name" href="https://github.com/computerphysicslab/skystacker">SkyStacker</a>
+      <span class="desc">Fast Go CLI for astronomical image stacking and processing.</span>
+    </li>
+    <li>
+      <a class="name" href="https://github.com/computerphysicslab/AstroStudio">AstroStudio</a>
+      <span class="desc">GTK desktop front-end for astronomical and photographic CLI backends.</span>
+    </li>
+    <li>
+      <a class="name" href="https://github.com/computerphysicslab/goCrawler">goCrawler</a>
+      <span class="desc">Topic-restricted crawler that builds curated text corpora with a local SQLite cache.</span>
+    </li>
+  </ul>
+
+  <footer>
+    Static site with no tracking, cookies, external assets or build step.
+    <a href="https://github.com/computerphysicslab">GitHub profile</a>.
+  </footer>
+</main>
+</body>
+</html>
