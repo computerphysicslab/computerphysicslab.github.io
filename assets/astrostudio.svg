@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="AstroStudio desktop application with image preview, histogram and job queue">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111d27"/><stop offset="1" stop-color="#080d13"/></linearGradient>
+<radialGradient id="neb"><stop offset="0" stop-color="#ffd9a8" stop-opacity=".9"/><stop offset=".4" stop-color="#c66ba0" stop-opacity=".5"/><stop offset="1" stop-color="#1a2a4a" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="480" height="300" fill="url(#bg)"/>
+<rect x="16" y="20" width="448" height="260" rx="9" fill="#0d141d" stroke="#36566a" stroke-width="1.5"/>
+<path d="M16 46h448" stroke="#36566a"/>
+<g fill="#5f7d8e"><circle cx="30" cy="33" r="3"/><circle cx="41" cy="33" r="3"/><circle cx="52" cy="33" r="3"/></g>
+<text x="70" y="37" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#c9dbe6">AstroStudio</text>
+<g font-family="ui-monospace,Menlo,monospace" font-size="8" fill="#7d98a8"><text x="192" y="37">File</text><text x="218" y="37">Processing</text><text x="266" y="37">Astrometry</text><text x="322" y="37">View</text><text x="352" y="37">Help</text></g>
+<rect x="24" y="54" width="38" height="218" rx="5" fill="#121c25" stroke="#24404f"/>
+<g fill="#2c586b"><rect x="31" y="64" width="24" height="20" rx="3"/><rect x="31" y="92" width="24" height="20" rx="3"/><rect x="31" y="120" width="24" height="20" rx="3"/><rect x="31" y="148" width="24" height="20" rx="3"/><rect x="31" y="176" width="24" height="20" rx="3"/></g>
+<g fill="#8fe3ec" opacity=".8"><circle cx="43" cy="74" r="3"/><circle cx="43" cy="102" r="3"/><circle cx="43" cy="130" r="3"/><circle cx="43" cy="158" r="3"/><circle cx="43" cy="186" r="3"/></g>
+<rect x="68" y="54" width="250" height="152" rx="5" fill="#050a11" stroke="#24404f"/>
+<ellipse cx="193" cy="130" rx="92" ry="52" fill="url(#neb)"/>
+<g fill="#d9ecff"><circle cx="152" cy="112" r="1"/><circle cx="228" cy="96" r="1.2"/><circle cx="258" cy="150" r="1"/><circle cx="130" cy="160" r="1"/></g>
+<text x="76" y="66" font-family="ui-monospace,Menlo,monospace" font-size="8" fill="#8fe3ec">Preview (PNG rendered from TIFF)</text>
+<rect x="324" y="54" width="132" height="94" rx="5" fill="#101a23" stroke="#24404f"/>
+<text x="332" y="68" font-family="ui-monospace,Menlo,monospace" font-size="8" fill="#8fe3ec">Resources / jobs</text>
+<g fill="#43d69a"><rect x="332" y="76" width="82" height="5" rx="2"/><rect x="332" y="88" width="56" height="5" rx="2"/><rect x="332" y="100" width="98" height="5" rx="2"/></g>
+<g stroke="#36566a"><path d="M332 116h108M332 128h108M332 140h108"/></g>
+<rect x="324" y="154" width="132" height="118" rx="5" fill="#101a23" stroke="#24404f"/>
+<text x="332" y="168" font-family="ui-monospace,Menlo,monospace" font-size="8" fill="#8fe3ec">Histogram</text>
+<g fill="#58d5e0" opacity=".8"><rect x="333" y="236" width="5" height="22"/><rect x="341" y="226" width="5" height="32"/><rect x="349" y="214" width="5" height="44"/><rect x="357" y="222" width="5" height="36"/><rect x="365" y="198" width="5" height="60"/><rect x="373" y="206" width="5" height="52"/><rect x="381" y="188" width="5" height="70"/><rect x="389" y="204" width="5" height="54"/><rect x="397" y="216" width="5" height="42"/><rect x="405" y="228" width="5" height="30"/><rect x="413" y="238" width="5" height="20"/><rect x="421" y="244" width="5" height="14"/></g>
+<rect x="68" y="212" width="250" height="60" rx="5" fill="#080e14" stroke="#24404f"/>
+<text x="76" y="225" font-family="ui-monospace,Menlo,monospace" font-size="8" fill="#8fe3ec">Terminal drawer</text>
+<g font-family="ui-monospace,Menlo,monospace" font-size="8" fill="#7fd8a8"><text x="76" y="240">[13:21:27] CLI histogram exit 0</text><text x="76" y="254">[13:21:35] CLI export-stars skystacker</text><text x="76" y="266" fill="#c9dbe6">› plate solve · FWHM · Gaia · drizzle</text></g>
+<rect x="1" y="1" width="478" height="298" fill="none" stroke="#2b4a5e" stroke-width="2"/>
+</svg>

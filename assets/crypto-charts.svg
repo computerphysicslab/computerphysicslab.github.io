@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="Crypto Charts: candlestick chart with moving average and RSI">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e1a20"/><stop offset="1" stop-color="#080d12"/></linearGradient>
+</defs>
+<rect width="480" height="300" fill="url(#bg)"/>
+<g stroke="#1c3038" stroke-width="1"><path d="M0 60h480M0 100h480M0 140h480M0 180h480M0 220h480M60 0v260M140 0v260M220 0v260M300 0v260M380 0v260M460 0v260"/></g>
+<g stroke-width="2" fill="none">
+<g stroke="#43d69a"><path d="M42 150v34m-6-26h12m-6 26h12"/><path d="M82 122v40m-6-32h12m-6 32h12"/><path d="M162 108v32m-6-24h12m-6 24h12"/><path d="M242 142v28m-6-22h12m-6 22h12"/><path d="M322 84v36m-6-28h12m-6 28h12"/><path d="M362 70v30m-6-22h12m-6 22h12"/><path d="M442 58v34m-6-26h12m-6 26h12"/></g>
+<g stroke="#ff6b7d"><path d="M122 138v36m-6-30h12m-6 30h12"/><path d="M202 126v44m-6-36h12m-6 36h12"/><path d="M282 116v38m-6-30h12m-6 30h12"/><path d="M402 96v42m-6-34h12m-6 34h12"/></g>
+</g>
+<path d="M42 158q60-46 100-24t80-14 80-28 80-12 80-22" fill="none" stroke="#f5c451" stroke-width="2" opacity=".9"/>
+<g fill="#43d69a" opacity=".35"><rect x="36" y="232" width="8" height="26"/><rect x="76" y="226" width="8" height="32"/><rect x="116" y="238" width="8" height="20"/><rect x="156" y="220" width="8" height="38"/><rect x="196" y="232" width="8" height="26"/><rect x="236" y="226" width="8" height="32"/><rect x="276" y="214" width="8" height="44"/><rect x="316" y="206" width="8" height="52"/><rect x="356" y="220" width="8" height="38"/><rect x="396" y="210" width="8" height="48"/><rect x="436" y="200" width="8" height="58"/></g>
+<rect x="22" y="18" width="132" height="30" rx="6" fill="#152a31" stroke="#2c525b"/>
+<text x="34" y="38" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#eaf7ff">BTC / USD</text>
+<rect x="360" y="18" width="98" height="30" rx="6" fill="#152a31" stroke="#2c525b"/>
+<text x="371" y="38" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#f5c451">RSI 14 · 62</text>
+<rect x="22" y="268" width="436" height="22" rx="4" fill="#0b151b"/>
+<text x="32" y="283" font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#69d5e2" letter-spacing="1">1M · LOG PRICE · EMA200 · VOLUME · 1,000 CANDLES · OFFLINE CACHE</text>
+<rect x="1" y="1" width="478" height="298" fill="none" stroke="#2b4a5e" stroke-width="2"/>
+</svg>

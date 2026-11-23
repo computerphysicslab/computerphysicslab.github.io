@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="SkyStacker: stacked and annotated image of the Andromeda galaxy">
+<defs>
+<radialGradient id="halo"><stop offset="0" stop-color="#a9d8ff" stop-opacity=".55"/><stop offset=".45" stop-color="#4d84c4" stop-opacity=".22"/><stop offset="1" stop-color="#0a1020" stop-opacity="0"/></radialGradient>
+<linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff3d6"/><stop offset=".5" stop-color="#bcd8f5"/><stop offset="1" stop-color="#6f9fd0"/></linearGradient>
+</defs>
+<rect width="480" height="300" fill="#050912"/>
+<g fill="#dcecff"><circle cx="38" cy="42" r="1.2" opacity=".8"/><circle cx="92" cy="88" r="1" opacity=".6"/><circle cx="146" cy="35" r="1.5" opacity=".9"/><circle cx="214" cy="72" r="1" opacity=".5"/><circle cx="286" cy="40" r="1.3" opacity=".8"/><circle cx="352" cy="92" r="1" opacity=".7"/><circle cx="418" cy="48" r="1.6" opacity=".9"/><circle cx="450" cy="132" r="1" opacity=".6"/><circle cx="70" cy="164" r="1" opacity=".5"/><circle cx="130" cy="232" r="1.3" opacity=".7"/><circle cx="410" cy="228" r="1.1" opacity=".7"/></g>
+<g transform="rotate(-18 240 138)">
+<ellipse cx="240" cy="138" rx="150" ry="62" fill="url(#halo)"/>
+<ellipse cx="240" cy="138" rx="104" ry="38" fill="#7fa9d8" opacity=".18"/>
+<ellipse cx="240" cy="138" rx="62" ry="20" fill="url(#core)" opacity=".85"/>
+<ellipse cx="240" cy="138" rx="18" ry="9" fill="#fffaf0"/>
+<g stroke="#bcd8f5" stroke-width="1" fill="none" opacity=".35"><ellipse cx="240" cy="138" rx="132" ry="52"/><ellipse cx="240" cy="138" rx="84" ry="29"/></g>
+</g>
+<g fill="#8fe3ec"><circle cx="196" cy="102" r="2"/><circle cx="306" cy="164" r="1.6"/><circle cx="168" cy="176" r="1.4"/></g>
+<g font-family="ui-monospace,Menlo,monospace" font-size="9" fill="#8fe3ec"><text x="204" y="96">M 32</text><text x="312" y="159">NGC 205</text></g>
+<g stroke="#58d5e0" stroke-width="1" opacity=".75"><path d="M24 24h22M24 24v22M456 24h-22M456 24v22M24 276h22M24 276v-22M456 276h-22M456 276v-22"/></g>
+<g stroke="#58d5e0" stroke-width="1" fill="none" opacity=".35"><rect x="34" y="34" width="412" height="232"/><rect x="40" y="40" width="400" height="220"/></g>
+<rect x="1" y="1" width="478" height="298" fill="none" stroke="#2b4a5e" stroke-width="2"/>
+<text x="22" y="272" font-family="ui-monospace,Menlo,monospace" font-size="19" font-weight="700" fill="#eaf7ff" letter-spacing="2">SkyStacker</text>
+<text x="23" y="288" font-family="ui-monospace,Menlo,monospace" font-size="9" fill="#69d5e2" letter-spacing="1">M31 · 5 × 600 s · STACKED + ANNOTATED + DSS RGB</text>
+</svg>

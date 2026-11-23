@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="Harrier Patrol: a jet crossing the sea towards an aircraft carrier">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071426"/><stop offset="1" stop-color="#14466b"/></linearGradient>
+<linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0e628f"/><stop offset="1" stop-color="#05223a"/></linearGradient>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity=".16"/></pattern>
+</defs>
+<rect width="480" height="300" fill="url(#sky)"/>
+<g fill="#dff2ff" opacity=".8"><circle cx="52" cy="38" r="1.3"/><circle cx="121" cy="62" r="1"/><circle cx="196" cy="31" r="1.5"/><circle cx="284" cy="54" r="1"/><circle cx="361" cy="27" r="1.2"/><circle cx="429" cy="67" r="1"/></g>
+<circle cx="392" cy="92" r="26" fill="#dceeff" opacity=".08"/><circle cx="392" cy="92" r="11" fill="#eaf6ff" opacity=".55"/>
+<rect y="146" width="480" height="154" fill="url(#sea)"/>
+<g stroke="#59c7ef" stroke-width="1" opacity=".28"><path d="M0 172h64m22 0h48m24 0h72m28 0h54m26 0h80m20 0h42"/><path d="M18 196h72m24 0h50m26 0h84m30 0h60m24 0h76"/><path d="M0 224h56m22 0h88m26 0h50m30 0h96m24 0h70"/></g>
+<path d="M330 240h150l-12 26H342z" fill="#1b2c39" stroke="#5c7d92" stroke-width="1.5"/>
+<path d="M344 240l10-18h106l14 18z" fill="#243846"/>
+<g stroke="#88b4c9" stroke-width="1" opacity=".7"><path d="M356 240l4 26m28-26v26m28-26v26m28-26v26"/></g>
+<path d="M132 78l14 12h112l20 10-20 6-100 6-18-10-20-6z" fill="#cfe3ee" stroke="#0b1c28" stroke-width="2"/>
+<path d="M156 96l-18 30 14-4 16-26zM232 100l12 24-12-4z" fill="#a9c8d8"/>
+<circle cx="164" cy="96" r="3" fill="#4fd9e6"/><path d="M126 102l-16 4 16 2z" fill="#ffb549"/>
+<rect width="480" height="300" fill="url(#scan)"/>
+<rect x="1" y="1" width="478" height="298" fill="none" stroke="#2b4a5e" stroke-width="2"/>
+<text x="22" y="274" font-family="ui-monospace,Menlo,monospace" font-size="21" font-weight="700" fill="#eaf7ff" letter-spacing="3">HARRIER PATROL</text>
+<text x="23" y="290" font-family="ui-monospace,Menlo,monospace" font-size="9" fill="#69d5e2" letter-spacing="2">VTOL STRIKE SORTIE · SINGLE FILE</text>
+</svg>

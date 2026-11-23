@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="goCrawler: a web graph being crawled into a curated corpus">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c1a19"/><stop offset="1" stop-color="#070e10"/></linearGradient>
+</defs>
+<rect width="480" height="300" fill="url(#bg)"/>
+<rect x="16" y="20" width="280" height="252" rx="8" fill="#0a1414" stroke="#295049" stroke-width="1.5"/>
+<path d="M16 44h280" stroke="#295049"/>
+<g fill="#4f8c7c"><circle cx="30" cy="32" r="3"/><circle cx="41" cy="32" r="3"/><circle cx="52" cy="32" r="3"/></g>
+<text x="66" y="36" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#c9eee2">goCrawler — Workbench</text>
+<g font-family="ui-monospace,Menlo,monospace" font-size="9"><text x="28" y="64" fill="#43d69a">$</text><text x="42" y="64" fill="#9fc7bd">go run crawler.go research --resume</text><text x="28" y="82" fill="#43d69a">›</text><text x="42" y="82" fill="#7fa79c">robots.txt cache: 7d · workers=4</text><text x="28" y="100" fill="#43d69a">›</text><text x="42" y="100" fill="#7fa79c">GET 200  astro/plate-solving.html</text><text x="28" y="118" fill="#43d69a">›</text><text x="42" y="118" fill="#7fa79c">keep: en · 1,842 words · unique</text><text x="28" y="136" fill="#43d69a">›</text><text x="42" y="136" fill="#7fa79c">drop: short / near-duplicate</text><text x="28" y="154" fill="#43d69a">›</text><text x="42" y="154" fill="#7fa79c">SQLite cache · FTS5 index ready</text><text x="28" y="172" fill="#43d69a">✓</text><text x="42" y="172" fill="#9fc7bd">corpus: 128 docs · 412 n-grams</text></g>
+<g font-family="ui-monospace,Menlo,monospace" font-size="8" fill="#3f6a61"><text x="28" y="200">[profiles] [seeds] [keywords] [corpus] [about]</text><text x="28" y="218">[ ████████████████░░░░ ]  78%</text></g>
+<g stroke="#2f6f60" stroke-width="1.4">
+<path d="M382 74L430 52M382 74L432 116M430 52L432 116M382 74L352 128M430 52L462 96M432 116L462 96M352 128L382 188M432 116L382 188"/>
+</g>
+<g fill="#43d69a"><circle cx="382" cy="74" r="7"/><circle cx="430" cy="52" r="5"/><circle cx="432" cy="116" r="6"/></g>
+<g fill="#1c4b42" stroke="#4e9a85"><circle cx="352" cy="128" r="5"/><circle cx="462" cy="96" r="4"/><circle cx="382" cy="188" r="6"/></g>
+<g font-family="ui-monospace,Menlo,monospace" font-size="8" fill="#8fe3c8"><text x="336" y="210">SEED</text><text x="366" y="70" fill="#071410">web</text></g>
+<rect x="312" y="232" width="152" height="30" rx="5" fill="#10231f" stroke="#295049"/>
+<text x="324" y="251" font-family="ui-monospace,Menlo,monospace" font-size="9" fill="#43d69a">curated corpus + n-grams</text>
+<rect x="1" y="1" width="478" height="298" fill="none" stroke="#2b4a5e" stroke-width="2"/>
+</svg>

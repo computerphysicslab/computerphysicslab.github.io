@@ -16,26 +16,40 @@
     margin: 0; background: var(--bg); color: var(--ink);
     font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
   }
-  main { max-width: 780px; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+  main { max-width: 900px; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
   h1 { font-size: 2rem; margin: 0 0 .3rem; letter-spacing: .02em; }
   .lead { color: var(--muted); margin: 0 0 2rem; }
   h2 {
     font-size: .95rem; text-transform: uppercase; letter-spacing: .14em;
     color: var(--accent); margin: 2.5rem 0 1rem;
   }
-  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .75rem; }
-  li { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: .85rem 1rem; }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .8rem; }
+  li {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    padding: .7rem; display: grid; grid-template-columns: 168px 1fr;
+    gap: 1rem; align-items: center;
+  }
+  .thumb {
+    display: block; width: 168px; aspect-ratio: 8 / 5; object-fit: cover;
+    border-radius: 6px; border: 1px solid var(--line); background: #0a1016;
+  }
   a { color: var(--accent); text-decoration: none; }
   a:hover, a:focus-visible { text-decoration: underline; }
+  a:hover .thumb, a:focus-visible .thumb { border-color: var(--accent); }
   .name { font-weight: 650; font-size: 1.05rem; }
   .tag {
     display: inline-block; margin-left: .45rem; padding: .05rem .4rem;
     border: 1px solid var(--accent); border-radius: 4px;
     font-size: .62rem; letter-spacing: .1em; vertical-align: .15em;
   }
-  .desc { display: block; color: var(--muted); font-size: .9rem; margin-top: .15rem; }
+  .desc { display: block; color: var(--muted); font-size: .9rem; margin-top: .2rem; }
   footer { margin-top: 3rem; border-top: 1px solid var(--line); padding-top: 1rem; color: var(--muted); font-size: .85rem; }
-  @media (max-width: 480px) { main { padding-top: 2rem; } h1 { font-size: 1.7rem; } }
+  @media (max-width: 600px) {
+    main { padding-top: 2rem; }
+    h1 { font-size: 1.7rem; }
+    li { grid-template-columns: 1fr; gap: .7rem; }
+    .thumb { width: 100%; max-height: 180px; }
+  }
 </style>
 </head>
 <body>
@@ -47,41 +61,62 @@
   <h2>Play and explore</h2>
   <ul>
     <li>
-      <a class="name" href="https://computerphysicslab.github.io/harrier-patrol/">Harrier Patrol<span class="tag">PLAY</span></a>
-      <span class="desc">A self-contained VTOL arcade game: one HTML file, no install, works offline.</span>
+      <img class="thumb" src="assets/harrier-patrol.svg" alt="Harrier Patrol: a jet crossing the sea towards an aircraft carrier" width="168" height="105" loading="lazy">
+      <div>
+        <a class="name" href="https://computerphysicslab.github.io/harrier-patrol/">Harrier Patrol<span class="tag">PLAY</span></a>
+        <span class="desc">A self-contained VTOL arcade game: one HTML file, no install, works offline.</span>
+      </div>
     </li>
     <li>
-      <a class="name" href="https://computerphysicslab.github.io/master-profesorado-matematicas/">Mathematics teaching notes</a>
-      <span class="desc">Secondary-school Mathematics materials, activities and PBL resources (in Spanish).</span>
+      <img class="thumb" src="assets/mathematics.svg" alt="Mathematics notes: graphs, geometry and formulas" width="168" height="105" loading="lazy">
+      <div>
+        <a class="name" href="https://computerphysicslab.github.io/master-profesorado-matematicas/">Mathematics teaching notes</a>
+        <span class="desc">Secondary-school Mathematics materials, activities and PBL resources (in Spanish).</span>
+      </div>
     </li>
     <li>
-      <a class="name" href="https://computerphysicslab.github.io/webcharts/">Crypto Charts</a>
-      <span class="desc">Multi-provider chart viewer with cached windows, RSI and two-asset comparison.</span>
+      <img class="thumb" src="assets/crypto-charts.svg" alt="Crypto Charts: candlestick chart with moving average and RSI" width="168" height="105" loading="lazy">
+      <div>
+        <a class="name" href="https://computerphysicslab.github.io/webcharts/">Crypto Charts</a>
+        <span class="desc">Multi-provider chart viewer with cached windows, RSI and two-asset comparison.</span>
+      </div>
     </li>
     <li>
-      <a class="name" href="https://computerphysicslab.github.io/English-vocabulary-flashcards/">English vocabulary flashcards</a>
-      <span class="desc">Image-based word quiz with a CEFR level estimate from A1 to C2.</span>
+      <img class="thumb" src="assets/flashcards.svg" alt="English flashcards: a word card and a CEFR level scale" width="168" height="105" loading="lazy">
+      <div>
+        <a class="name" href="https://computerphysicslab.github.io/English-vocabulary-flashcards/">English vocabulary flashcards</a>
+        <span class="desc">Image-based word quiz with a CEFR level estimate from A1 to C2.</span>
+      </div>
     </li>
   </ul>
 
   <h2>Code on GitHub</h2>
   <ul>
     <li>
-      <a class="name" href="https://github.com/computerphysicslab/skystacker">SkyStacker</a>
-      <span class="desc">Fast Go CLI for astronomical image stacking and processing.</span>
+      <img class="thumb" src="assets/skystacker.svg" alt="SkyStacker: annotated image of the Andromeda galaxy" width="168" height="105" loading="lazy">
+      <div>
+        <a class="name" href="https://github.com/computerphysicslab/skystacker">SkyStacker</a>
+        <span class="desc">Fast Go CLI for astronomical image stacking and processing.</span>
+      </div>
     </li>
     <li>
-      <a class="name" href="https://github.com/computerphysicslab/AstroStudio">AstroStudio</a>
-      <span class="desc">GTK desktop front-end for astronomical and photographic CLI backends.</span>
+      <img class="thumb" src="assets/astrostudio.svg" alt="AstroStudio desktop app with image preview, histogram and job queue" width="168" height="105" loading="lazy">
+      <div>
+        <a class="name" href="https://github.com/computerphysicslab/AstroStudio">AstroStudio</a>
+        <span class="desc">GTK desktop front-end for astronomical and photographic CLI backends.</span>
+      </div>
     </li>
     <li>
-      <a class="name" href="https://github.com/computerphysicslab/goCrawler">goCrawler</a>
-      <span class="desc">Topic-restricted crawler that builds curated text corpora with a local SQLite cache.</span>
+      <img class="thumb" src="assets/gocrawler.svg" alt="goCrawler: a web graph being crawled into a curated corpus" width="168" height="105" loading="lazy">
+      <div>
+        <a class="name" href="https://github.com/computerphysicslab/goCrawler">goCrawler</a>
+        <span class="desc">Topic-restricted crawler that builds curated text corpora with a local SQLite cache.</span>
+      </div>
     </li>
   </ul>
 
   <footer>
-    Static site with no tracking, cookies, external assets or build step.
+    Static site with no tracking, cookies, external assets or build step; thumbnails are original local SVGs.
     <a href="https://github.com/computerphysicslab">GitHub profile</a>.
   </footer>
 </main>
